@@ -1,0 +1,18 @@
+skl
+
+fun main ..
+	
+	put .Ingrese numero para saber si es par,
+	int num eq 0,
+	get num,
+	num eq num mod 2,
+	
+	if , num cmp 0, ..
+		put .el numero es par,
+	..	
+	if , not,num cmp 0, , ..
+		put .el numero es impar,
+	..		
+..
+
+

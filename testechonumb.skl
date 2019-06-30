@@ -1,0 +1,14 @@
+skl
+fun main ..
+	
+	put .Inserte un numero para imprimirlo 0 para salir,
+
+	int num eq 1,
+
+	whi , not , num cmp 0 , , ..
+		get num,
+		put num,
+	..
+
+	put .Adios,
+..

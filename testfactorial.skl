@@ -1,0 +1,18 @@
+skl
+
+fun main ..
+	
+	put .Ingrese numero a calcular factorial,
+	int numb eq 1,
+	get numb, 
+
+	int ans eq 1,
+	int count eq 0,
+	
+		for , count eq 1 to numb  , ..	
+			
+			ans eq ans mul count, 
+		..
+
+	put ans,
+..

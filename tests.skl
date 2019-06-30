@@ -1,0 +1,83 @@
+skl
+
+fun test1 ..
+	put .Hello world!,
+..
+
+
+fun test2 ..
+	str hello eq . ,
+	hello eq .Im saying hello world again!,
+	put hello,
+
+	int number eq 8 add 2,
+	number eq number sub ,4 mul 2, ,
+	
+	put .El numero 2 es, 
+	put number,
+	
+..
+
+fun test3 ..
+	int number1 eq 5,
+	int number2 eq 5,
+	int number3 eq 2,
+	
+	if , number1 cmp number2 , ..
+		put .5 igual a 5,
+		int numb9 eq 9,
+	..
+	if , number3 gre number2 , ..
+		put .2 mayor que 5,	
+	..
+	
+	if , not , number3 gre number2 , , ..
+		put .2 no es mayor que 5,
+	..
+..
+
+fun test4 ..
+	
+	put .contemos de 0 a 10,	
+
+	for , number eq 0 to 10 , ..
+		put number,
+	..
+
+	int number3 eq 3,
+	int number2 eq 5,
+
+	put .contemos de 0 a 5,
+
+	for , number3 eq 0 to number2 , ..
+		put number3,	
+	..
+..
+
+fun test5 ..
+	
+	int number eq 1,
+	whi , number les 10 , ..
+		number eq number add 1,
+		str unstring eq .unstring,
+	..
+	put . numero 10,
+	put number,	  	
+	
+..
+
+
+
+fun main..
+	put .test 1,
+	go test1,
+	put .test 2, 
+	go test2,
+	put .test 3,
+	go test3,
+	put .test 4,
+	go test4,
+	put .test 5,
+	go test5,
+..
+
