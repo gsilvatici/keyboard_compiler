@@ -2,8 +2,8 @@
 #define DAMANGER_H
 
 
-#define MAX_VARIABLES 124
-#define MAX_FUNCTIONS 124
+#define MAX_VAR_LENGTH 124
+#define MAX_FUNCT_LENGTH 124
 
 typedef enum {
 	false,
@@ -16,9 +16,7 @@ bool contains_var(char * key);
 void clear_variables();
 bool contains_function(char* name);
 bool add_function(char* name);
-bool check_main_exist();
-void printIDAlreadyCreated(char* id);
+bool main_exist();
 void to_ret_functions();
-void printFunctionNotFound(char* name);
 
 #endif

@@ -9,7 +9,7 @@
 struct Node* stack[MAX_STACK_LENGTH];
 int current_pos = 0;
 
-struct Node* functions[MAX_FUNCTIONS];
+struct Node* functions[MAX_FUNCT_LENGTH];
 int p_functions = 0;
 
 void addNode(struct Node* node){

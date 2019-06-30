@@ -9,9 +9,8 @@
 int extern line;
 
 
-
 bool handle_main() {
-	if (check_main_exist()){
+	if (main_exist()){
 		handle_compile_success();
 		return true;
 
